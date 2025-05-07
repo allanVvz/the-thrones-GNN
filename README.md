@@ -21,6 +21,21 @@ Este projeto compara as redes de interação de personagens das temporadas 1 e 8
 ├── 4_communities.ipynb     # Detecção e visualização de comunidades
 └── report_summary.ipynb    # Conclusões finais e comparações
 ```
+---
+## Dependências
+
+```
+pip install networkx pandas numpy matplotlib seaborn python-louvain python-igraph plotly
+```
+networkx: manipulação de grafos e cálculo de métricas
+
+pandas / numpy: leitura e processamento de dados
+
+matplotlib / seaborn / plotly: visualização de histogramas e grafos
+
+python-louvain: detecção de comunidades (módulo Louvain)
+
+python-igraph: algoritmos avançados de grafos
 
 ---
 
